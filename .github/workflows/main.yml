@@ -2,7 +2,7 @@ name: Auto Update README
 
 on:
   schedule:
-    - cron: '*/90 * * * *'  # 每 10 分钟执行一次
+    - cron: '*/50 * * * *'  # 每 10 分钟执行一次
   workflow_dispatch:       # 支持手动触发
 
 permissions:
